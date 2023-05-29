@@ -28,6 +28,11 @@ export default defineConfig({
         items: []
       },
       {
+        text: 'Typescript',
+        link: '/typescript/',
+        items: []
+      },
+      {
         text: 'React',
         items: []
       },
