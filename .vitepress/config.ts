@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "yhua's awesome",
   description: "note site",
-  cleanUrls:true,
+  cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -20,6 +20,16 @@ export default defineConfig({
           {
             text: 'Alibaba',
             link: '/interview/alibaba'
+          }
+        ]
+      },
+      {
+        text: 'Golang',
+        link: '/golang/',
+        items: [
+          {
+            text: 'Effective',
+            link: '/golang/effective'
           }
         ]
       },
