@@ -44,11 +44,7 @@ export default defineConfig({
       },
       {
         text: 'React',
-        link: '/react/',
-        items: [{
-          text: 'Pure',
-          link: '/react/pure'
-        }]
+        link: '/react/'
       },
       {
         text: 'Algorithm',
