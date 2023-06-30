@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "yhua's awesome"
   text: "note site"
-  tagline: My great project tagline
+  tagline: 耐心和持久胜过激烈和狂热。
   actions:
     - theme: brand
       text: 面试题

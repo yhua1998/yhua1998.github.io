@@ -11,3 +11,16 @@
 - SScan
 - SScanf
 - SScanln
+
+
+## 输出
+
+- Fprint
+- Fprintf
+- Fprintln
+- Print
+- Printf
+- Println
+- Sprint
+- Sprintf
+- Sprintln
