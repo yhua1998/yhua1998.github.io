@@ -18,15 +18,21 @@
 ```ts
 const MyInput = forwardRef((props, ref)=>{
 
-const currentRef = useRef(null)
+    const currentRef = useRef(null)
 
-useImperativeHandle(ref, ()=>({
-focus(){
-    currentRef.current.focus()
-}
-}))
+    useImperativeHandle(ref, ()=>({
+        focus(){
+            currentRef.current.focus()
+        }
+    }))
 
-return <input ref={currentRef} {...props} />
+    return <input ref={currentRef} {...props} />
 })
 
 ```
+
+## 一些问题
+
+- 为什么不要在渲染阶段访问ref值？
+
+react分为两个阶段，一是render，二是commit。由于ref值是在commit阶段设置的，即当react创建DOM节点时，对ref.current进行绑定，因此当我们在render阶段访问ref时，如果是第一次渲染则值为null，如果是重新渲染ref.current的值是上一次render的值。
