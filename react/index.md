@@ -11,4 +11,4 @@
 
 ## 存储库
 
-- [zustand](./zustand)
+- [zustand](./zustand/index.md)
