@@ -25,4 +25,29 @@ type MyBool = true | false
 
 - generics: 泛型
 
+- intersection: 交叉点 '&'
+
+```ts 
+type Combined = {a:number} & {b: string}
+```
+
+
+## 结构类型系统
+
+- typescript类型系统，如果两个变量的形状相同则认为是相同类型
+- 比较时，只要变量的一个子集匹配就行
+
+```ts 
+interface T{
+    x:number,
+    y:number
+}
+
+const t1 = {x:1,y:2,z:3} // 符合T类型
+```
+
+## Gradual Typing: 渐进式类型any
+
+不允许Gradual Typing的方法是在tsconfig.json文件设置noImplicitAny:true或strict:true
+
 

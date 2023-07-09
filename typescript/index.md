@@ -8,3 +8,4 @@
 ## Toc
 
 - [Concept](./concept.md)
+- [JavaScript Features](./ecmascript_features.md)
