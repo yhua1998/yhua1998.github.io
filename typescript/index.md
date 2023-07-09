@@ -9,3 +9,4 @@
 
 - [Concept](./concept.md)
 - [JavaScript Features](./ecmascript_features.md)
+- [Types](./types.md)

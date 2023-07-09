@@ -50,4 +50,12 @@ const t1 = {x:1,y:2,z:3} // 符合T类型
 
 不允许Gradual Typing的方法是在tsconfig.json文件设置noImplicitAny:true或strict:true
 
+## 严格性
+
+- noImplicitAny
+
+- strictNullChecks
+
+严格检查null与undefined赋值给其他类型变量
+
 
