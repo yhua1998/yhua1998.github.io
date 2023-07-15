@@ -2,7 +2,7 @@
 
 ## 手写call
 
-```
+```javascript
 Function.prototype.mycall=function(ctx, ...args){
     ctx = ctx === undefined || ctx=== null ? globalThis:Object(ctx)
     const fn = this
