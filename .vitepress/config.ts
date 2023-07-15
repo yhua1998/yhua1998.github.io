@@ -20,6 +20,10 @@ export default defineConfig({
           {
             text: 'Alibaba',
             link: '/interview/alibaba'
+          },
+          {
+            text: 'Byte Dance',
+            link: '/interview/byte'
           }
         ]
       },
