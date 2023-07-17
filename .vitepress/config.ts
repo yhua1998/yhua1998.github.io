@@ -38,8 +38,13 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Javascript',
-        items: []
+        text: 'JS && CSS && HTML',
+        items: [
+          {
+            text:'CSS',
+            link: '/css/'
+          }
+        ]
       },
       {
         text: 'Typescript',
