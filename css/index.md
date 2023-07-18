@@ -12,7 +12,8 @@
 
 [overflow](./overflow.md)
 
+[Flex](./flex.md)
 
-`object-fit`:调整替换元素的大小
-    - `cover`
-    - `contain`
+[Grid](./grid.md)
+
+`object-fit`:调整替换元素的大小 - `cover` - `contain`
