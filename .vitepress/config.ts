@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -8,61 +8,63 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Notes', link: '/interview/alibaba' }
+      { text: "Home", link: "/" },
+      { text: "Notes", link: "/interview/alibaba" },
     ],
 
     sidebar: [
       {
-        text: 'Interview',
-        link: '/interview/',
+        text: "Interview",
+        link: "/interview/",
         items: [
           {
-            text: 'Alibaba',
-            link: '/interview/alibaba'
+            text: "Alibaba",
+            link: "/interview/alibaba",
           },
           {
-            text: 'Byte Dance',
-            link: '/interview/byte'
-          }
-        ]
+            text: "Byte Dance",
+            link: "/interview/byte",
+          },
+        ],
       },
       {
-        text: 'Golang',
-        link: '/golang/',
+        text: "Golang",
+        link: "/golang/",
         items: [
           {
-            text: 'Effective',
-            link: '/golang/effective'
-          }
-        ]
+            text: "Effective",
+            link: "/golang/effective",
+          },
+        ],
       },
       {
-        text: 'JS && CSS && HTML',
+        text: "JS && CSS && HTML",
         items: [
           {
-            text:'CSS',
-            link: '/css/'
-          }
-        ]
+            text: "CSS",
+            link: "/css/",
+          },
+          {
+            text: "JavaScript",
+            link: "/javascript/",
+          },
+        ],
       },
       {
-        text: 'Typescript',
-        link: '/typescript/',
-        items: []
+        text: "Typescript",
+        link: "/typescript/",
+        items: [],
       },
       {
-        text: 'React',
-        link: '/react/'
+        text: "React",
+        link: "/react/",
       },
       {
-        text: 'Algorithm',
-        items: []
-      }
+        text: "Algorithm",
+        items: [],
+      },
     ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/yhua1998' }
-    ]
-  }
-})
+    socialLinks: [{ icon: "github", link: "https://github.com/yhua1998" }],
+  },
+});

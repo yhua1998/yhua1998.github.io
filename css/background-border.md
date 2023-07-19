@@ -23,10 +23,16 @@
 
 - 背景图像定位`background-position`
 
-    - 关键字:top center
-    - 长度/百分比
+  - 关键字:top center
+  - 长度/百分比
 
 上述背景图像属性可以使用逗号分隔给出多个值，将发生堆叠，最前面的在最顶层
+
+- `background-origin`
+
+  - `border/padding/content-box`
+
+  指定 position 的原点
 
 - 渐变背景图像:gradient
 
@@ -38,13 +44,18 @@
     - `fixed`: 固定在视口上，当元素或元素内容滚动时都不会滚动
     - `local`: 与元素内容一起滚动
 
+- `background-clip`
+
+背景裁剪，决定背景扩展区域
+
+- `border-box`
+- `padding-box`
+- `content-box`
+- `text`:文字前景色
 
 ### 简写
 
 - `background-color`只能在最后一个逗号之后指定
-- `background-size`只能立即包含在position之后，用`/`分隔
-
+- `background-size`只能立即包含在 position 之后，用`/`分隔
 
 ## 边框
-
-
