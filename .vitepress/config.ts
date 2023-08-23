@@ -61,6 +61,7 @@ export default defineConfig({
       },
       {
         text: "Algorithm",
+        link: "/algorithm/"
         items: [],
       },
     ],
