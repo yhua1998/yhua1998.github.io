@@ -1,3 +1,0 @@
-# Package
-
-- [fmt](./fmt.md)
