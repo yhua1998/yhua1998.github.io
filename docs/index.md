@@ -13,4 +13,7 @@ hero:
     - theme: brand
       text: JavaScript手写
       link: /js-hand/
+    - theme: brand
+      text: 设计模式
+      link: /design-model/
 ---
