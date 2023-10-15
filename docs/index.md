@@ -16,4 +16,7 @@ hero:
     - theme: brand
       text: 设计模式
       link: /design-model/
+    - theme: brand
+      text: WEB
+      link: /web/
 ---
