@@ -19,4 +19,7 @@ hero:
     - theme: brand
       text: WEB
       link: /web/
+    - theme: brand
+      text: Tech Interview Handbook
+      link: https://www.techinterviewhandbook.org/algorithms/array/
 ---
