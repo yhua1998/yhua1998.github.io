@@ -18,3 +18,7 @@ aside: false
 - [长度最小的子组数](https://leetcode.cn/problems/minimum-size-subarray-sum/description/)
 
 - [最小覆盖子串](https://leetcode.cn/problems/minimum-window-substring/description/)
+
+### 反向操作
+
+- [每日温度](https://leetcode.cn/problems/daily-temperatures/description/)
