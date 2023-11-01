@@ -13,4 +13,4 @@ aside: false
 
 ### 滑动窗口
 
-- [X] [无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/description/?utm_source=LCUS&utm_medium=ip_redirect&utm_campaign=transfer2china)
+- [无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/description/?utm_source=LCUS&utm_medium=ip_redirect&utm_campaign=transfer2china)
