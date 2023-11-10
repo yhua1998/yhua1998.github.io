@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "YHUA's"
-  text: "基础是进阶的前提"
-  tagline: ""
+  text: '基础是进阶的前提'
+  tagline: ''
   actions:
     - theme: brand
       text: 算法部分
@@ -25,4 +25,7 @@ hero:
     - theme: brand
       text: 前端充电宝
       link: https://www.yuque.com/cuggz/interview/cmno8a
+    - theme: brand
+      text: Rust
+      link: /rust/
 ---
